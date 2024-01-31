@@ -1,0 +1,309 @@
+{
+  "errorcode": [
+    {
+      "FaultIndicator": "Warning System warning",
+      "ErrorCode": 2,
+      "Description": "An internal system error has occurred."
+    },
+    {
+      "FaultIndicator": "Warning Watchdog reset",
+      "ErrorCode": 10,
+      "Description": "A watchdog reset has occurred."
+    },
+    {
+      "FaultIndicator": "Warning Power down det.",
+      "ErrorCode": 11,
+      "Description": "The auxiliary supply voltage has dropped too low."
+    },
+    {
+      "FaultIndicator": "Warning IEC61850 error",
+      "ErrorCode": 20,
+      "Description": "Error when building the IEC 61850 data model."
+    },
+    {
+      "FaultIndicator": "Warning Modbus error",
+      "ErrorCode": 21,
+      "Description": "Error in the Modbus communication."
+    },
+    {
+      "FaultIndicator": "Warning DNP3 error",
+      "ErrorCode": 22,
+      "Description": "Error in the DNP3 communication."
+    },
+    {
+      "FaultIndicator": "Warning Dataset error",
+      "ErrorCode": 24,
+      "Description": "Error in the Data set(s)."
+    },
+    {
+      "FaultIndicator": "Warning Report cont. erro",
+      "ErrorCode": 25,
+      "Description": "Error in the Report control block(s)."
+    },
+    {
+      "FaultIndicator": "Warning GOOSE contr. Error",
+      "ErrorCode": 26,
+      "Description": "Error in the GOOSE control block(s)."
+    },
+    {
+      "FaultIndicator": "Warning SCL config error",
+      "ErrorCode": 27,
+      "Description": "Error in the SCL configuration file or the file is missing."
+    },
+    {
+      "FaultIndicator": "Warning Logic error",
+      "ErrorCode": 28,
+      "Description": "Too many connections in the configuration."
+    },
+    {
+      "FaultIndicator": "Warning SMT logic error",
+      "ErrorCode": 29,
+      "Description": "Error in the SMT connections."
+    },
+    {
+      "FaultIndicator": "Warning GOOSE input error",
+      "ErrorCode": 30,
+      "Description": "Error in the GOOSE connections."
+    },
+    {
+      "FaultIndicator": "ACT error",
+      "ErrorCode": 31,
+      "Description": "Error in the ACT connections."
+    },
+    {
+      "FaultIndicator": "Warning GOOSE Rx. Error",
+      "ErrorCode": 32,
+      "Description": "Error in the GOOSE message receiving."
+    },
+    {
+      "FaultIndicator": "Warning AFL error",
+      "ErrorCode": 33,
+      "Description": "Analog channel configuration error."
+    },
+    {
+      "FaultIndicator": "Warning Unack card comp.",
+      "ErrorCode": 40,
+      "Description": "A new composition has not been acknowledged/accepted."
+    },
+    {
+      "FaultIndicator": "Warning Protection comm.",
+      "ErrorCode": 50,
+      "Description": "Error in protection communication."
+    },
+    {
+      "FaultIndicator": "Warning ARC1 cont. light\n",
+      "ErrorCode": 85,
+      "Description": "A continuous light has been detected on the ARC light input 1."
+    },
+    {
+      "FaultIndicator": "Warning ARC2 cont. light\n",
+      "ErrorCode": 86,
+      "Description": "A continuous light has been detected on the ARC light input 2."
+    },
+    {
+      "FaultIndicator": "Warning ARC3 cont. light\n",
+      "ErrorCode": 87,
+      "Description": "A continuous light has been detected on the ARC light input 3."
+    },
+    {
+      "FaultIndicator": "Warning RTD card error,X105\n",
+      "ErrorCode": 90,
+      "Description": "Temporary error occurred in RTD card located in slot X105"
+    },
+    {
+      "FaultIndicator": "Warning RTD card error,X110\n",
+      "ErrorCode": 94,
+      "Description": "Temporary error occurred in RTD card located in slot X110"
+    },
+    {
+      "FaultIndicator": "Warning RTD card error,X130\n",
+      "ErrorCode": 96,
+      "Description": "Temporary error occurred in RTD card located in slot X130."
+    },
+    {
+      "FaultIndicator": "Warning RTD meas. error,X105\n",
+      "ErrorCode": 100,
+      "Description": "Measurement error in RTD card located in slot X105"
+    },
+    {
+      "FaultIndicator": "Warning RTD meas. error,X110",
+      "ErrorCode": 104,
+      "Description": "Measurement error in RTD card located in slot X110"
+    },
+    {
+      "FaultIndicator": "Warning RTD meas. error,X130\n",
+      "ErrorCode": 106,
+      "Description": "Measurement error in RTD card located in slot X130."
+    },
+    {
+      "FaultIndicator": "Internal Fault System error",
+      "ErrorCode": 2,
+      "Description": "An internal system error has occurred."
+    },
+    {
+      "FaultIndicator": "Internal Fault File system error",
+      "ErrorCode": 7,
+      "Description": "A file system error has occurred."
+    },
+    {
+      "FaultIndicator": "Internal Fault Test",
+      "ErrorCode": 8,
+      "Description": "Internal fault test activated manually by the user."
+    },
+    {
+      "FaultIndicator": "Internal Fault SW watchdog error",
+      "ErrorCode": 10,
+      "Description": "Watchdog reset has occurred too many times within an hour"
+    },
+    {
+      "FaultIndicator": "Internal Fault SO-relay(s),X105",
+      "ErrorCode": 40,
+      "Description": "Faulty Signal Output relay(s) in card located in slot X105."
+    },
+    {
+      "FaultIndicator": "Internal Fault SO-relay(s),X115",
+      "ErrorCode": 41,
+      "Description": "Faulty Signal Output relay(s) in card located in slot X115."
+    },
+    {
+      "FaultIndicator": "Internal Fault SO-relay(s),X100",
+      "ErrorCode": 43,
+      "Description": "Faulty Signal Output relay(s) in card located in slot X100."
+    },
+    {
+      "FaultIndicator": "Internal Fault SO-relay(s),X110",
+      "ErrorCode": 44,
+      "Description": "Faulty Signal Output relay(s) in card located in slot X110."
+    },
+    {
+      "FaultIndicator": "Internal Fault SO-relay(s),X130",
+      "ErrorCode": 46,
+      "Description": "Faulty Signal Output relay(s) in card located in slot X130."
+    },
+    {
+      "FaultIndicator": "Internal Fault PO-relay(s),X100",
+      "ErrorCode": 53,
+      "Description": "Faulty Power Output relay(s) in card located in slot X100."
+    },
+    {
+      "FaultIndicator": "Internal Fault Light sensor error",
+      "ErrorCode": 57,
+      "Description": "Faulty ARC light sensor input(s)."
+    },
+    {
+      "FaultIndicator": "Internal Fault Conf. error,X105",
+      "ErrorCode": 60,
+      "Description": "Card in slot X105 is of the wrong type, is missing or does not belong to the original composition."
+    },
+    {
+      "FaultIndicator": "Internal Fault Conf. error,X115",
+      "ErrorCode": 61,
+      "Description": "Card in slot X115 is of the wrong type, is missing or does not belong to the original composition."
+    },
+    {
+      "FaultIndicator": "Internal Fault Conf. error,X000",
+      "ErrorCode": 62,
+      "Description": "Card in slot X000 is of the wrong type"
+    },
+    {
+      "FaultIndicator": "Internal Fault Conf. error,X100",
+      "ErrorCode": 63,
+      "Description": "Card in slot X100 is of the wrong type or does not belong to the original composition."
+    },
+    {
+      "FaultIndicator": "Internal Fault Conf. error,X110",
+      "ErrorCode": 64,
+      "Description": "Card in slot X110 is of the wrong type, is missing or does not belong to the original composition."
+    },
+    {
+      "FaultIndicator": "Internal Fault Conf. error,X120",
+      "ErrorCode": 65,
+      "Description": "Card in slot X120 is of the wrong type, is missing or does not belong to the original composition."
+    },
+    {
+      "FaultIndicator": "Internal Fault Conf.error,X130",
+      "ErrorCode": 66,
+      "Description": "Card in slot X130 is of the wrong type, is missing or does not belong to the original composition."
+    },
+    {
+      "FaultIndicator": "Internal Fault Card error,X105",
+      "ErrorCode": 70,
+      "Description": "Card in slot X105 is faulty."
+    },
+    {
+      "FaultIndicator": "Internal Fault Card error,X115",
+      "ErrorCode": 71,
+      "Description": "Card in slot X115 is faulty."
+    },
+    {
+      "FaultIndicator": "Internal Fault Card error,X000",
+      "ErrorCode": 72,
+      "Description": "Card in slot X000 is faulty"
+    },
+    {
+      "FaultIndicator": "Internal Fault Card error,X100",
+      "ErrorCode": 73,
+      "Description": "Card in slot X100 is faulty."
+    },
+    {
+      "FaultIndicator": "Internal Fault Card error,X110",
+      "ErrorCode": 74,
+      "Description": "Card in slot X110 is faulty."
+    },
+    {
+      "FaultIndicator": "Internal Fault Card error,X120",
+      "ErrorCode": 75,
+      "Description": "Card in slot X120 is faulty."
+    },
+    {
+      "FaultIndicator": "Internal Fault Card error,X130",
+      "ErrorCode": 76,
+      "Description": "Card in slot X130 is faulty."
+    },
+    {
+      "FaultIndicator": "Internal Fault LHMI module",
+      "ErrorCode": 79,
+      "Description": "LHMI module is faulty. The fault indication may not be seen on the LHMI during the fault."
+    },
+    {
+      "FaultIndicator": "Internal Fault RAM error",
+      "ErrorCode": 80,
+      "Description": "Error in the RAM memory on the CPU card."
+    },
+    {
+      "FaultIndicator": "Internal Fault ROM error",
+      "ErrorCode": 81,
+      "Description": "Error in the ROM memory on the CPU card."
+    },
+    {
+      "FaultIndicator": "Internal Fault. EEPROM error",
+      "ErrorCode": 82,
+      "Description": "Error in the EEPROM memory on the CPU card"
+    },
+    {
+      "FaultIndicator": "Internal Fault FPGA error",
+      "ErrorCode": 83,
+      "Description": "Error in the FPGA on the CPU card"
+    },
+    {
+      "FaultIndicator": "Internal Fault RTC error",
+      "ErrorCode": 84,
+      "Description": "Error in the RTC on the CPU card."
+    },
+    {
+      "FaultIndicator": "Internal Fault RTD card error,X105",
+      "ErrorCode": 90,
+      "Description": "RTD card located in slot X105 may have permanent fault. Temporary error has occurred too many times within a short time"
+    },
+    {
+      "FaultIndicator": "Internal Fault RTD card error,X110",
+      "ErrorCode": 94,
+      "Description": "RTD card located in slot X110  may have permanent fault. Temporary error has occurred too many times within a short time"
+    },
+    {
+      "FaultIndicator": "Internal Fault RTD card error,X130",
+      "ErrorCode": 96,
+      "Description": "RTD card located in slot X130  may have permanent fault. Temporary error has occurred too many times within a short time"
+    }
+  ]
+}
